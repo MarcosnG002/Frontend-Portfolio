@@ -1,0 +1,19 @@
+.acercaDe {
+    color: 0;
+    border-style:solid;
+    border-radius: 20px;
+}
+.bloque {
+    border-style: solid;
+    margin-left: 3px;
+    border-radius: 20px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.img-avatar{
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+}

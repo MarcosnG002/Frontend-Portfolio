@@ -1,19 +1,44 @@
-.acercaDe {
-    color: 0;
-    border-style:solid;
+.row {
+    border: 0.2px solid rgba(28,110,164,0.2);
+    margin: 10px 10px;
     border-radius: 20px;
+    
 }
-.bloque {
-    border-style: solid;
-    margin-left: 3px;
-    border-radius: 20px;
-    margin-right: 3px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+div#mat-card{
+    padding:0;
+}
+div#back_img img{
+        border-radius: 20px 20px 0 0;
+        width:100%;
+
+}
+
+div#back_img{
+    display: flex;
+    z-index: 1;
+
 }
 .img-avatar{
     border-radius:50%;
     width: 150px;
     height: 150px;
-    
+    margin-top: -110px;
+    padding-left: 5px;
 }
+.column1{
+  width: 20px;
+  height: 0px;  
+  object-fit: none;
+  flex-direction: row;
+  padding-bottom:10px;
+}
+.texto1{
+  text-align: justify;
+  padding: 0px 80px;
+  flex-direction: row;
+  padding-top: 0px;
+}
+p{
+    margin-bottom: 0px;
+}
+
